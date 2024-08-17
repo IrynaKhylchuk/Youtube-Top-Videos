@@ -1,0 +1,52 @@
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoDiv h2 {
+    font-size: 35px;
+}
+
+.infoDiv h3 {
+    font-size: 25px;
+}
+
+.youtubeSpan {
+    font-size: 18px;
+}
+
+.infoDiv p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.diagramDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagramDiv img{
+    width: 100%;
+    height: auto;
+}
+
+#topVideoBtnHome {
+    padding: 0 24px;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 3px;
+    background-color: #1a73e8;
+    color: white;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+    .col-5 {
+        display: none;
+    }
+}
